@@ -2,10 +2,10 @@
     background-color: black;
     background-size: 60%;    
     background-image: 
-    url(img/vector_1.png),
-    url(img/vector_2.png),
-    url(img/vector_3.png),
-    url(img/vector_4.png);
+    url(../img/vector_1.png),
+    url(../img/vector_2.png),
+    url(../img/vector_3.png),
+    url(../img/vector_4.png);
     background-repeat: no-repeat;
     background-position-x: left -50%, right -70%, left -60%, right -70%;
     background-position-y: top -20%, top 30%, bottom -90%, bottom -140%;
@@ -26,6 +26,19 @@ main {color: white;}
     align-items: center;
 }
 
+.layout h2 {
+    font-size: 1.25em;
+}
+
+.reset-link{
+    text-decoration: none;
+}
+
+.reset-link a{
+    text-decoration: none;
+    color: #ff5353;
+}
+
 .logo{
     width: 143px;
 }
@@ -36,8 +49,10 @@ main {color: white;}
     color: #ff5353;
     padding-top: 90%;
     padding-right: 20%;
-    padding-left: 0px;
+    padding-left: 0px;    
+    margin-left: -105%;
 }
+
 
 input {
     border-radius: 10px;
@@ -50,17 +65,20 @@ input {
 ::placeholder { color: rgb(135, 135, 135); }
 
 button {
-    width: 100px;
-    height: 40px;
+    display: inline-block;    
+    padding: 20px;
     border-radius: 20px; border: none;
     background-color: rgb(165, 30, 30);
     color: white;
-    margin: 20% auto auto 30%;
+    margin-left: 3.5rem;
+    margin-top: 2.5rem;
 }
+
+.layout button {
+margin-top: 3rem;
+}   
+
 
 button:active {
     background-color: rgb(255, 85, 85);
 }
-
-
-

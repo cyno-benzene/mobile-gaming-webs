@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+
+}
+  
+  
+body {
+    margin-top: 69px;
+    margin-bottom: 50px;
+    background-color: black;
+  }
+
+.game-list-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.list-title {
+  color: white;
+}
+
+/* Top Navigation Bar */
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0px;
+  height: 69px;
+  overflow-x: auto;
+  float: left;
+  background-color: grey;
+}
+
+.top-nav h4 {
+  color: #EE2328; 
+  margin-left: 1.5rem;
+}
+
+.top-nav ul {
+  list-style: none;
+  margin: 0;padding: 0;
+  float: right;
+}
+
+.top-nav li {
+  display: inline-block;
+  margin-left: 1rem;
+  color: white;
+}
+/* End of Top Navigation Bar */
+
+
+/* Bottom Navigation Bar */
+  .bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 69px;
+    background-color: #282828;
+    display: flex;
+    overflow-x: auto;
+    border-radius: 10px 10px 0 0;
+
+  }
+
+  .bottom-nav a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: hidden;
+    text-decoration: none;
+    min-width: 50px;
+    white-space: nowrap;
+    justify-content: center;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+.navicons {
+  color: white;
+}
+
+  .navicons:active {
+    color: #EE2328;
+ }
+/* End of Bottom Navigation Bar */
