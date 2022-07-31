@@ -26,10 +26,15 @@ body {
     overflow: hidden;
     text-decoration: none;
     display: block;
+    background-color: black;
 }
 
 .top-nav ul {
     list-style: none;
+}
+
+.top-nav svg {
+  color: white;
 }
 
 .top-nav h3{
@@ -83,7 +88,7 @@ body {
     display: grid;
     justify-content: center;
     align-content: center;
-    gap: 10px;
+    gap: 2px;
     grid-auto-flow: row;
 }
 
@@ -91,12 +96,22 @@ body {
   text-align: center;
 }
 
+.wrapper h3 {
+  text-align: center;
+  font-size: 2em;
+  text-align: center;
+  color: black;
+  background-color: #EE2328;
+  width: 20rem;
+  height: 6rem;
+}
+
 .wrapper img {
     width: 100%;
     height: 250px;
 }
 
-
+/*Player List Table*/
 table {
   margin: auto;
   width: 90%;
@@ -120,3 +135,4 @@ tr td:first-child:before
   content: counter(Serial); 
   /* Display the counter */
 }
+/*End of Player List Table*/

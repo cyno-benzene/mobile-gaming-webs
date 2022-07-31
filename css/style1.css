@@ -1,15 +1,14 @@
 .vector {
-    background-color: black;
-    background-size: 60%;    
-    background-image: 
-    url(../img/vector_1.png),
-    url(../img/vector_2.png),
-    url(../img/vector_3.png),
-    url(../img/vector_4.png);
+    background:
+    url("../static/img/vector_1.png") -6rem 2rem,
+    url("../static/img/vector_2.png")  16rem 2rem,
+    url("../static/img/vector_3.png") -6rem 38rem,
+    url("../static/img/vector_4.png") 16rem 38rem,
+    black;
     background-repeat: no-repeat;
-    background-position-x: left -50%, right -70%, left -60%, right -70%;
-    background-position-y: top -20%, top 30%, bottom -90%, bottom -140%;
-    background-clip: border-box;
+
+    background-size: 60%;    
+
 }   
  
 * {
@@ -21,7 +20,6 @@ main {color: white;}
 
 .layout {
     display: flex;
-    flex-wrap: no-wrap;
     flex-direction: column;
     margin-top: 120px;
     align-items: center;
